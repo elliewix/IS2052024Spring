@@ -1,6 +1,4 @@
 # sometext = "here's a string of some text"
-
-
 filename = "book.txt"
 # tells python it exists
 infile = open(filename, 'rt', encoding='utf-8')
