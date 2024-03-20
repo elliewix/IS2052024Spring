@@ -17,5 +17,6 @@ print(len("\n"))
 
 lines = text.split("\n")
 
+# for l in lines:
+#     print(len(l), len(l.split()), l)
 for l in lines:
-    print(len(l), len(l.split()), l)

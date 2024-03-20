@@ -7,7 +7,7 @@ text = "   here    is a sentence.   \t\n"
 
 print(text.split()) # () empty!
 # can give an arg
-print(text.split("e"))
+print(text.`split`("e"))
 
 # replace takes 2 args: old, new
 print(text.replace(" ", "_"))
