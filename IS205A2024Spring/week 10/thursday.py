@@ -13,3 +13,24 @@ for lett in letters: # this one holds outfile pattern
         # print(lett * i) # eyeball it
         outfile.write(lett * i + "\n")
     outfile.close() # remember this is outside and at the end
+
+
+#
+# word = "cats"
+#
+# # native python pattern
+# for l in word:
+#     print(l)
+#
+# for i in range(len(word)):
+#     l = word[i]
+#     print(l)
+#
+# for letter in "abc": # outer
+#     for number in range(5): # inner
+#         # print(letter, number)
+#         print(number,letter)
+
+for number in range(5):
+    for letter in "abc":
+        print(number, letter)
