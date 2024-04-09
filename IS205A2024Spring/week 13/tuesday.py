@@ -36,3 +36,4 @@ outfile = open("newdata.json", 'wt', encoding='utf-8')
 json.dump(data, outfile, indent=4)
 outfile.close()
 
+print(data["cat"]["lines"])
