@@ -59,7 +59,7 @@ d["dog"] = d["dog"] + 1
 d[key] = d[key] + 1
 ## to see a value
 print(d[key])
-
+print(d)
 # prepopulating a dict
 
 ## so you have some content, let's text again
